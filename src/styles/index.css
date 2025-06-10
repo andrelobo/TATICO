@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+/* Adicionar fonte Sakat */
+@font-face {
+  font-family: 'Sakat';
+  src: url('/fonts/Sakat-Regular.tiff') format('tiff'),
+       url('/fonts/Sakat-Regular.woff2') format('woff2'),
+       url('/fonts/Sakat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #000;
+  }
+}
+
+.font-graffiti {
+  font-family: 'Sakat', 'Rubik Doodle Shadow', cursive;
+}
